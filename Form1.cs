@@ -122,12 +122,12 @@ namespace Spotify_login_interface
 
         private void AC_Enter(object sender, EventArgs e)
         {
-            button3.BackColor = Color.LightGreen;
+            //button3.BackColor = Color.LightGreen;
         }
 
         private void AC_Leave(object sender, EventArgs e)
         {
-            button3.BackColor = SystemColors.Control;
+            //button3.BackColor = SystemColors.Control;
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -219,85 +219,132 @@ namespace Spotify_login_interface
             ShowNumInTextbox1(0);
         }
 
-        //private void button20_Click(object sender, EventArgs e)
-        //{
-        //    if(!IsBlack)
-        //   { // Black Mode
+        private void button20_Click(object sender, EventArgs e)
+        {
+            
+        }
 
-        //    // form
-        //    this.BackColor = Color.Black;
+        private void button20_Click_1(object sender, EventArgs e)
+        {
+            if (!IsBlack)
+            { // Black Mode
 
-        //    // button20
-        //    button20.ForeColor = Color.Black;
-        //    panel2.BackColor = Color.White;
-        //    button20.Text = "White Mode";
+                // form
+                this.BackColor = Color.Black;
 
-        //    // rest of the buttons
-        //    button1.ForeColor = Color.White;
-        //    button2.ForeColor = Color.White;
-        //    button3.ForeColor = Color.White;
-        //    button4.ForeColor = Color.White;
-        //    button5.ForeColor = Color.White;
-        //    button6.ForeColor = Color.White;
-        //    button7.ForeColor = Color.White;
-        //    button8.ForeColor = Color.White;
-        //    button9.ForeColor = Color.White;
-        //    button10.ForeColor = Color.White;
-        //    button11.ForeColor = Color.White;
-        //    button12.ForeColor = Color.White;
-        //    button13.ForeColor = Color.White;
-        //    button14.ForeColor = Color.White;
-        //    button15.ForeColor = Color.White;
-        //    button16.ForeColor = Color.White;
-        //    button17.ForeColor = Color.White;
-        //    button18.ForeColor = Color.White;
+                // button20
+                button20.ForeColor = Color.Black;
+                panel2.BackColor = Color.White;
+                button20.Text = "White Mode";
 
-        //    //textbox
-        //    textBox2.BackColor = Color.Black;
-        //    textBox1.BackColor = Color.Black;
-        //    textBox1.ForeColor = Color.White;
-        //    textBox2.ForeColor = Color.White;
+                // rest of the buttons
+                button1.ForeColor = Color.White;
+                button2.ForeColor = Color.White;
+                button3.ForeColor = Color.White;
+                button4.ForeColor = Color.White;
+                button5.ForeColor = Color.White;
+                button6.ForeColor = Color.White;
+                button7.ForeColor = Color.White;
+                button8.ForeColor = Color.White;
+                button9.ForeColor = Color.White;
+                button10.ForeColor = Color.White;
+                button11.ForeColor = Color.White;
+                button12.ForeColor = Color.White;
+                button13.ForeColor = Color.White;
+                button14.ForeColor = Color.White;
+                button15.ForeColor = Color.White;
+                button16.ForeColor = Color.White;
+                button17.ForeColor = Color.White;
+                button18.ForeColor = Color.White;
 
-        //        panel1.BackColor = Color.Black;
-        //    }
-        //    else
-        //    {
-        //        this.BackColor = SystemColors.Control;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.DarkOrange;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
+                button6.BackColor = Color.Black;
+                button7.BackColor = Color.Black;
+                button8.BackColor = Color.Black;
+                button9.BackColor = Color.Black;
+                button10.BackColor = Color.Black;
+                button11.BackColor = Color.Black;
+                button12.BackColor = Color.Black;
+                button13.BackColor = Color.Black;
+                button14.BackColor = Color.Black;
+                button15.BackColor = Color.Black;
+                button16.BackColor = Color.Black;
+                button17.BackColor = Color.Black;
+                button18.BackColor = Color.Black;
+                //textbox
+                textBox2.BackColor = Color.Black;
+                textBox1.BackColor = Color.Black;
+                textBox1.ForeColor = Color.White;
+                textBox2.ForeColor = Color.White;
 
-        //        // button20
-        //        button20.ForeColor = Color.White;
-        //        panel2.BackColor = Color.Black;
-        //        button20.Text = "Dark Mode";
+                panel1.BackColor = Color.Black;
 
-        //        // rest of the buttons
-        //        button1.ForeColor = Color.Black;
-        //        button2.ForeColor = Color.Black;
-        //        button3.ForeColor = Color.Black;
-        //        button4.ForeColor = Color.Black;
-        //        button5.ForeColor = Color.Black;
-        //        button6.ForeColor = Color.Black;
-        //        button7.ForeColor = Color.Black;
-        //        button8.ForeColor = Color.Black;
-        //        button9.ForeColor = Color.Black;
-        //        button10.ForeColor = Color.Black;
-        //        button11.ForeColor = Color.Black;
-        //        button12.ForeColor = Color.Black;
-        //        button13.ForeColor = Color.Black;
-        //        button14.ForeColor = Color.Black;
-        //        button15.ForeColor = Color.Black;
-        //        button16.ForeColor = Color.Black;
-        //        button17.ForeColor = Color.Black;
-        //        button18.ForeColor = Color.Black;
+                IsBlack = true;
+            }
+            else
+            {
+                //White Mode
 
-        //        //textbox
-        //        textBox2.BackColor = Color.White;
-        //        textBox1.BackColor = Color.White;
-        //        textBox1.ForeColor = Color.Black;
-        //        textBox2.ForeColor = Color.Black;
+                this.BackColor = SystemColors.Control;
 
-        //        panel1.BackColor = Color.White;
-        //    }
+                // button20
+                button20.ForeColor = Color.White;
+                panel2.BackColor = Color.Black;
+                button20.Text = "Dark Mode";
 
-        //}
+                // rest of the buttons
+                button1.ForeColor = Color.Black;
+                button2.ForeColor = Color.Black;
+                button3.ForeColor = Color.Black;
+                button4.ForeColor = Color.Black;
+                button5.ForeColor = Color.Black;
+                button6.ForeColor = Color.Black;
+                button7.ForeColor = Color.Black;
+                button8.ForeColor = Color.Black;
+                button9.ForeColor = Color.Black;
+                button10.ForeColor = Color.Black;
+                button11.ForeColor = Color.Black;
+                button12.ForeColor = Color.Black;
+                button13.ForeColor = Color.Black;
+                button14.ForeColor = Color.Black;
+                button15.ForeColor = Color.Black;
+                button16.ForeColor = Color.Black;
+                button17.ForeColor = Color.Black;
+                button18.ForeColor = Color.Black;
+
+                button1.BackColor = Color.White;
+                button2.BackColor = Color.White;
+                button3.BackColor = SystemColors.MenuHighlight;
+                button4.BackColor = Color.White;
+                button5.BackColor = Color.White;
+                button6.BackColor = Color.White;
+                button7.BackColor = Color.White;
+                button8.BackColor = Color.White;
+                button9.BackColor = Color.White;
+                button10.BackColor = Color.White;
+                button11.BackColor = Color.White;
+                button12.BackColor = Color.White;
+                button13.BackColor = Color.White;
+                button14.BackColor = Color.White;
+                button15.BackColor = Color.White;
+                button16.BackColor = Color.White;
+                button17.BackColor = Color.White;
+                button18.BackColor = Color.White;
+                //textbox
+                textBox2.BackColor = Color.White;
+                textBox1.BackColor = Color.White;
+                textBox1.ForeColor = Color.Black;
+                textBox2.ForeColor = Color.Black;
+
+                panel1.BackColor = Color.White;
+
+                IsBlack = false;
+            }
+
+        }
     }
 }
